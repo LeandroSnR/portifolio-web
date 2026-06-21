@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leandro Abilio — Em transição para Tecnologia</title>
+<meta name="description" content="Portfólio de Leandro Abilio, profissional de indústria e qualidade em transição de carreira para Análise e Desenvolvimento de Sistemas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="nav" id="top">
+  <a href="#top" class="nav__brand">leandro<span class="nav__brand-dot">.</span>abilio</a>
+  <nav class="nav__links">
+    <a href="#sobre">sobre</a>
+    <a href="#experiencia">experiência</a>
+    <a href="#projetos">projetos</a>
+    <a href="#habilidades">habilidades</a>
+    <a href="#contato">contato</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__terminal" id="terminal">
+      <div class="terminal__bar">
+        <span class="terminal__dot terminal__dot--red"></span>
+        <span class="terminal__dot terminal__dot--yellow"></span>
+        <span class="terminal__dot terminal__dot--green"></span>
+        <span class="terminal__title">leandro@transicao-de-carreira:~</span>
+      </div>
+      <div class="terminal__body" id="terminalBody"></div>
+    </div>
+
+    <h1 class="hero__title">
+      Leandro Abilio
+    </h1>
+    <p class="hero__subtitle">
+      Da química e do laboratório de qualidade para a programação.
+      Instrutor técnico no SENAI, estudante de ADS, construindo a transição
+      um <code>git commit</code> por vez.
+    </p>
+    <div class="hero__cta">
+      <a href="#experiencia" class="btn btn--primary">Minha trajetória</a>
+      <a href="#projetos" class="btn btn--ghost">Ver projetos</a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section" id="sobre">
+    <div class="section__head">
+      <span class="eyebrow">$ cat sobre.md</span>
+      <h2>Sobre mim</h2>
+    </div>
+    <div class="about">
+      <p>
+        Minha trajetória começou na indústria: técnico em Eletrotécnica, depois bacharel
+        em Química Industrial, passando por laboratório de controle de qualidade e hoje
+        atuando como instrutor técnico no SENAI, formando turmas de Biotecnologia e
+        Eletrotécnica.
+      </p>
+      <p>
+        Ao longo desse caminho, percebi que a parte do trabalho que mais me engajava era
+        organizar processos, montar planilhas e dashboards para acompanhar indicadores,
+        e resolver problemas de forma estruturada. Foi esse padrão que me levou a decidir
+        migrar pra Análise e Desenvolvimento de Sistemas: troquei o PDCA do chão de fábrica
+        pelo ciclo de aprender, codar e testar.
+      </p>
+      <p>
+        Hoje sigo trabalhando no SENAI enquanto curso ADS e construo projetos próprios em
+        Python e C. Ainda estou no começo da programação, mas trago comigo disciplina técnica,
+        rotina de documentação e a experiência de quem já treinou gente e bateu meta — só que
+        agora aplicada a um problema novo.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIÊNCIA -->
+  <section class="section" id="experiencia">
+    <div class="section__head">
+      <span class="eyebrow">$ cat experiencia.log</span>
+      <h2>Experiência Profissional</h2>
+    </div>
+
+    <div class="timeline">
+
+      <article class="timeline__item">
+        <div class="timeline__period">Fev 2022 — atual</div>
+        <div class="timeline__content">
+          <h3>Instrutor de Aprendizagem Industrial Técnica</h3>
+          <span class="timeline__company">SENAI-ES</span>
+          <p>
+            Planejamento e execução de disciplinas técnicas para turmas de Biotecnologia
+            e, desde 2025, também Eletrotécnica — validando atuação em duas frentes técnicas
+            diferentes.
+          </p>
+          <ul class="timeline__highlights">
+            <li>4 turmas técnicas formadas, com rendimento médio de 90% (IDAP) em Biotecnologia e 86% em Eletrotécnica</li>
+            <li>Selecionado para desenvolver curso de aprendizagem básica em Química em parceria com FINDES e Sindiquímicos (2025)</li>
+            <li>Avaliador técnico do SAEP em viagens estaduais, com acompanhamento de indicadores via Excel e Power BI</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline__item">
+        <div class="timeline__period">Set 2021 — Fev 2022</div>
+        <div class="timeline__content">
+          <h3>Assistente de Laboratório de Controle de Qualidade</h3>
+          <span class="timeline__company">Hintz Cosmetics</span>
+          <p>
+            Análises físico-químicas (HPLC, pH, ponto de fusão, colorimetria) em matérias-primas
+            e produtos acabados, com 100% de conformidade regulatória.
+          </p>
+          <ul class="timeline__highlights">
+            <li>Promovido de estagiário a assistente em menos de 2 semanas</li>
+            <li>Co-desenvolveu método interno de análise que eliminou a compra de novos equipamentos</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="timeline__item">
+        <div class="timeline__period">Ago 2015 — Ago 2017</div>
+        <div class="timeline__content">
+          <h3>Jovem Aprendiz — Técnico em Eletrotécnica</h3>
+          <span class="timeline__company">Vale S.A.</span>
+          <p>
+            Selecionado entre mais de 300 candidatos para a formação técnica especializada
+            SENAI/Vale. Capacitação prática em eletrônica de potência, hidráulica, pneumática e CLPs.
+          </p>
+          <ul class="timeline__highlights">
+            <li>Aplicação prática de 5S, PDCA e Kaizen em ambiente industrial de grande porte</li>
+            <li>Projeto final multidisciplinar (elétrica + mecânica) entregue dentro do prazo</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section class="section" id="projetos">
+    <div class="section__head">
+      <span class="eyebrow">$ ls ./projetos</span>
+      <h2>Projetos</h2>
+    </div>
+
+    <div class="projects">
+
+      <article class="project-card">
+        <div class="project-card__top">
+          <span class="project-card__lang project-card__lang--py">Python</span>
+          <h3>Sistema Bancário</h3>
+        </div>
+        <p>
+          Simulação de um sistema bancário em Python, com estrutura separada em models,
+          controllers e camada de banco de dados — meu primeiro contato organizando código
+          em arquitetura, em vez de tudo num único arquivo.
+        </p>
+        <div class="project-card__tags">
+          <span>Python</span>
+          <span>POO</span>
+          <span>Arquitetura em camadas</span>
+        </div>
+        <a href="https://github.com/LeandroSnR/bank_system_py" target="_blank" rel="noopener" class="project-card__link">
+          <span>git clone</span> bank_system_py →
+        </a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__top">
+          <span class="project-card__lang project-card__lang--c">C</span>
+          <h3>Controle de Estoque</h3>
+        </div>
+        <p>
+          Sistema para controlar o estoque de um depósito, escrito em C com uma versão em
+          Python também no repositório. Foco em manipulação de dados e lógica estruturada
+          sem as facilidades de linguagens mais "amigáveis".
+        </p>
+        <div class="project-card__tags">
+          <span>C</span>
+          <span>Python</span>
+          <span>Lógica estruturada</span>
+        </div>
+        <a href="https://github.com/LeandroSnR/stock-control-c" target="_blank" rel="noopener" class="project-card__link">
+          <span>git clone</span> stock-control-c →
+        </a>
+      </article>
+
+      <article class="project-card project-card--next">
+        <div class="project-card__top">
+          <span class="project-card__lang project-card__lang--next">próximo</span>
+          <h3>Em construção</h3>
+        </div>
+        <p>
+          Este espaço é reservado de propósito. Conforme eu for avançando no curso e fazendo
+          novos projetos, eles entram aqui.
+        </p>
+        <span class="project-card__link project-card__link--disabled">aguardando commits...</span>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section class="section" id="habilidades">
+    <div class="section__head">
+      <span class="eyebrow">$ pip list</span>
+      <h2>Habilidades</h2>
+    </div>
+
+    <div class="skills">
+      <div class="skills__group">
+        <h3>Linguagens</h3>
+        <ul>
+          <li>Python</li>
+          <li>C</li>
+          <li>HTML &amp; CSS</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3>Ferramentas</h3>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>VS Code</li>
+          <li>Terminal / Linux básico</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3>Em estudo agora</h3>
+        <ul>
+          <li>Lógica de programação avançada</li>
+          <li>Estrutura de dados</li>
+          <li>Banco de dados</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3>Da indústria, aplicado à tech</h3>
+        <ul>
+          <li>Excel &amp; Power BI</li>
+          <li>PDCA &amp; 5S</li>
+          <li>Documentação e padronização</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section section--contact" id="contato">
+    <div class="section__head">
+      <span class="eyebrow">$ ./contato.sh</span>
+      <h2>Vamos conversar</h2>
+    </div>
+    <p class="contact__text">
+      Estou em transição de carreira, mas já com experiência real de mercado. Aberto a
+      conversar sobre oportunidades de estágio, projetos, ou trocar ideia com quem também
+      está migrando para tech.
+    </p>
+    <div class="contact__links">
+      <a href="mailto:leandroabiliosilva@gmail.com" class="contact__link">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm19 3.4-8.5 6.1a1 1 0 0 1-1.18 0L3 7.4V19h18V7.4ZM3.5 6l8.5 6.1L20.5 6h-17Z"/></svg>
+        leandroabiliosilva@gmail.com
+      </a>
+      <a href="tel:+5527996351651" class="contact__link">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1.1-.24c1.2.5 2.5.8 3.9.8a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.2a1 1 0 0 1 1 1c0 1.4.3 2.7.8 3.9a1 1 0 0 1-.24 1.1L6.6 10.8Z"/></svg>
+        (27) 99635-1651
+      </a>
+      <a href="https://github.com/LeandroSnR" target="_blank" rel="noopener" class="contact__link">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.25.8-.57v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        github.com/LeandroSnR
+      </a>
+      <a href="https://www.linkedin.com/in/leandro-abilio-silva" target="_blank" rel="noopener" class="contact__link">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+        linkedin.com/in/leandro-abilio-silva
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>feito por Leandro Abilio · <span id="year"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
